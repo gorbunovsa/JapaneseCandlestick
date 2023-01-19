@@ -2,6 +2,15 @@
 
 Converting data to Japanese candlestick format using Hadoop MapReduce Java API
 
+Столбцы файла с финансовыми данными имеют следующие названия:
+#SYMBOL,SYSTEM,MOMENT,ID_DEAL,PRICE_DEAL,VOLUME,OPEN_POS,DIRECTION
+где #SYMBOL — название финансового инструмента;
+MOMENT — время (дата);
+PRICE_DEAL — цена.
+
+Пример строки в файле:
+SVH1,F,20110111100000080,255223067,30.46000,1,8714,S
+
 Пример финансовых данных: /src/main/resources/fin_sample.csv
 
 Параметры конфигурации имеют следующие значения по умолчанию:
