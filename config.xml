@@ -1,0 +1,11 @@
+<configuration>
+    <property>
+	<name>candle.width</name>
+	<value>1000</value>
+    </property>
+    <property>
+	<name>candle.num.reducers</name>
+	<value>32</value>
+    </property>
+</configuration>
+
